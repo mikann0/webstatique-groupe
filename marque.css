@@ -1,0 +1,260 @@
+body,
+html {
+    margin: 0;
+    background-color:#dbdbdb;
+    font-family: 'Courier New', Courier, monospace,sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+.presentation {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.h1audi{
+    display: flex;
+}
+
+.card-image img {
+    height: 14rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+
+}
+.nava1 a:focus{
+    font-style: italic
+}
+.hover {
+    color: #0000;
+    background: 
+      linear-gradient(90deg,#A59612 50%,#000 0) 
+      var(--_p,100%)/200% no-repeat;
+    -webkit-background-clip: text;
+            background-clip: text;
+    transition: .4s;
+  }
+  .hover:hover {
+    --_p: 0%;
+  }
+.card-excerpt {
+    display: flex;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.2s ease-in-out all;
+    
+}
+
+.card-image:hover {
+    opacity: 0.8;
+    transform: scale(1.15)
+}
+
+.audi1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: .8rem;
+    background-color: #dbdbdb;
+
+}
+
+hr {
+    width: 60%;
+    margin-top: 3rem;
+    color: #A59612;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.bouton1>button {
+    background-color: #1c3b49;
+    padding: 8px;
+    border-radius: 8px;
+    color: #A59612;
+    border-color: #1c3b49;
+    margin-top: 25px;
+}
+.bouton1>button:hover{
+    background-color : #A59612; padding : 8px; cursor : pointer; display : inline-block ;color: #1c3b49;
+}
+
+.card-body h3 {
+    font-size: 25px;
+}
+
+button {
+    cursor: pointer;
+    font-family:inherit
+    
+}
+
+@media screen and (min-width: 800px) {
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 20%;
+    }
+
+    .card-image {
+        display: flex;
+        float: left;
+        margin-right: 50px;
+        width: 50%;
+
+    }
+
+    .img :first-of-type {
+        height: 14rem;
+    }
+    hr {
+        width: 80%;
+    }
+
+    .card-body h3 {
+        font-size: 30px;
+    }
+    .card-image img{
+        margin-top: 35px;
+        height: 20rem;
+    }
+    .card-excerpt{
+        margin: 0;
+    }
+}
+/*nav*/
+.nava:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+ul>a{
+    color: #A59612;
+}
+ul>a:hover{
+    opacity: 0.7;
+}
+nav {
+    color: #A59612;
+    background-color: #1c3b49;
+}
+
+#nav {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+
+nav ul {
+    background-color: rgba(28, 59, 73, 0.3);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    padding: 5% 3% 0% 3%;
+    height: 35px;
+}
+.nava {
+    color: #A59612;
+    text-decoration: none;
+}
+@media screen and (min-width:800px) {
+    nav{
+        padding-top: 0%;
+    }
+    
+    
+    nav ul{
+        font-size: 130%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    nav ul li{
+        margin-right: 30%;
+    }
+    
+    #nav,footer{
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    footer h4{
+        font-size: 120%;
+    }
+    
+    #icon{
+        font-size: 200%;
+    }
+    
+  
+    }
+/*footer*/
+footer {
+    background-color: #1c3b49;
+    color: #A59612;
+}
+
+#foo {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h5 {
+    text-align: center;
+    margin-bottom: 0;
+    
+
+}
+#icon{
+    margin-top: 25px;
+}
+#icon a {
+    font-size: 150%;
+    color: #A59612;
+    padding: 10px;
+}
+footer h4{
+    font-size: 120%;
+    color: #A59612;
+}
+
+#foo>a {
+    margin-left: 8%;
+}
+#foo a:hover{
+    opacity: 0.7;
+}
+#foo>#icon {
+    margin-right: 8%;
+}
